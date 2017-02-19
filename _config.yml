@@ -1,55 +1,52 @@
-title: Stack Problems
-description: My Personal Stack Problems
-author: Agus Makmun
-github: https://github.com/agusmakmun
-about: I am freelance developer. Currently doing more in backend, focused in Python and Django.
-disqus_shortname: stackproblems
-google_analytics: UA-XXXXXXXX-Y
-avatar_url: /static/img/avatar.jpg
+locale: "en-US"
+title: BoxWorld # Title of your site
+url: "http://yourdomain.com" # the base hostname & protocol for your site
+baseurl: "" # the subpath of your site, e.g. /blog/
+google_analytics_key: ""
 
-enableTags: true
-tagarray: []
+# Default description in social shares for the jekyll-seo-tag gem
+description: > # this means to ignore newlines until "baseurl:"
+  Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
 
-collections:
-  project:
-    output: true
-    permalink: /project/:path/
+# Author details for the jekyll-seo-tag gem
+author:
+  name: Your Name
+  email: your-email@domain.com
+  twitter: # twitter username without the @ symbol
 
+# Social details for the jekyll-seo-tag gem
 social:
-    - icon: fa-facebook
-      link: "#"
-    - icon: fa-twitter
-      link: "https://twitter.com/agusmakmun6"
-    - icon: fa-linkedin
-      link: "https://www.linkedin.com/in/summonagus"
-    - icon: fa-stack-exchange
-      link: "#"
-    - icon: fa-github
-      link: "https://github.com/agusmakmun"
+  name: S
+  links:
+    - https://github.com/comfusion/strata-reloaded-jekyll-template
 
-share:
-  twitter_username: agusmakmun6
-  fb_appid: 1749788565247320
+permalink: pretty
 
-urls:
-    - text: About Me
-      url: /about/
-    - text: My Projects
-      url: /projects/
-    - text: XML Feed
-      url: /feed.xml
-
-url: "https://agusmakmun.github.io"
-baseurl: ""
-paginate: 20
-per_page: 20
-paginate_path: "/page/:num/"
-markdown: kramdown
 gems:
-  - jekyll-paginate
-  - jekyll-gist
+  - "jekyll-feed"
+  - "jekyll-seo-tag"
+  - "jekyll-paginate"
+  - "jekyll-sitemap"
 
-compress_html:
-  clippings: all
-  comments: ["<!-- ", " -->"]
-  endings: all
+# Jekyll SEO Tag
+webmaster_verifications:
+  google: # 1234
+  bing: # 1234
+  alexa: # 1234
+  yandex: # 1234
+
+# -----------
+# CloudCannon
+
+social_icons:
+  - Facebook
+  - Google Plus
+  - Instagram
+  - LinkedIn
+  - Pinterest
+  - Tumblr
+  - Twitter
+  - YouTube
+  - RSS
