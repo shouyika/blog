@@ -22,7 +22,7 @@ social:
   links:
     - https://github.com/comfusion/strata-reloaded-jekyll-template
 
-permalink: /blog/:categories/:year/:month/:day/:title.html
+permalink: /:categories/:year-:month-:day/:title.html
 
 gems:
   - "jekyll-feed"
