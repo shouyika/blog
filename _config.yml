@@ -1,6 +1,6 @@
 ilocale: "en-US"
 title: BoxWorld # Title of your site
-url: "https://shouyika.github.description" # the base hostname & protocol for your site
+url: "https://shouyika.github.io" # the base hostname & protocol for your site
 baseurl: "/blog/" # the subpath of your site, e.g. /blog/
 google_analytics_key: ""
 
@@ -22,7 +22,7 @@ social:
   links:
     - https://github.com/comfusion/strata-reloaded-jekyll-template
 
-permalink: pretty
+permalink: /blog/:categories/:year/:month/:day/:title.html
 
 gems:
   - "jekyll-feed"
